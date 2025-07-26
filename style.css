@@ -1,28 +1,27 @@
-html, body {
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
     background-image: url('./burgers.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
     background-position: center;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
+
 }
 
-
-.container {
-    background-color: #334155;
-    padding: 20px ;
-    margin: 50px auto ;
-    max-width: 500px ;
-    width: 90%;
-    height: 250px;
-    border-radius:10px ;
-    box-shadow: 0 2px 8px rgba(0,0,0,0 0.1) ;
+.title {
+    text-align: center;
+    color: goldenrod;
+    font-size: 80px;
+    font-weight: bold;
 }
-
-.container h1 {
-    color: #facc15;
-    font-size: 40px;
+h2 {
+    text-align: center;
+    font-size: 50px;
 }
 
 a {
