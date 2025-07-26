@@ -1,0 +1,32 @@
+body {
+    background-image: url('./burgers.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container {
+    background-color: #334155;
+    padding: 20px ;
+    margin: 50px auto ;
+    max-width: 500px ;
+    height: 250px;
+    border-radius:10px ;
+    box-shadow: 0 2px 8px rgba(0,0,0,0 0.1) ;
+}
+
+.container h1 {
+    color: #facc15;
+    font-size: 40px;
+}
+
+a {
+    color: #e2e8f0 ;
+    text-decoration: none ;
+    text-align: center;
+    font-size: 30px;
+}
+
+a:hover {
+    color: green ;
+}
