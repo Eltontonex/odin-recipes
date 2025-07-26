@@ -1,7 +1,11 @@
-body {
+html, body {
     background-image: url('./burgers.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -10,6 +14,7 @@ body {
     padding: 20px ;
     margin: 50px auto ;
     max-width: 500px ;
+    width: 90%;
     height: 250px;
     border-radius:10px ;
     box-shadow: 0 2px 8px rgba(0,0,0,0 0.1) ;
