@@ -1,36 +1,85 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
 
 body {
-    background-image: url('./burgers.jpg');
+    background-image: url('./pictures/a-c-KaGhxSk4HSo-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     background-position: center;
+    font-family: arial, 'Times New Roman', Times, serif;
+}
+.header {
+    color: #F7E5C1;
+    font-size: 24px;
+    font-weight: 900;
+}
+.header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+}
 
+.header a {
+    text-decoration: none;
+    color: #F7E5C1;
 }
 
 .title {
     text-align: center;
-    color: goldenrod;
+    color: #F7E5C1;
     font-size: 80px;
     font-weight: bold;
 }
-h2 {
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+.card {
+    background: #72891b;
+    color: white;
+    height: 400px;
+    width: 350px;
+    border-radius: 15px;
     text-align: center;
-    font-size: 50px;
+    margin: 20px;
+    padding: 20px;
+}
+h3 {
+    margin: 10px;
+    font-size: 40px;
+}
+.btn {
+    background: #fe8505;
+    color: white;
+    border-radius: 15px;
+    height: 60px;
+    width: 150px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.btn:hover {
+     transform: translate(-10px);
+}
+.btm {
+     background: #fe8505;
+    color: white;
+    border-radius: 15px;
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 35px;
+    padding: 10px;
+}
+.btm:hover {
+     transform: translate(-10px);
 }
 
 a {
-    color: #e2e8f0 ;
+    color: white ;
     text-decoration: none ;
     text-align: center;
     font-size: 30px;
-}
-
-a:hover {
-    color: green ;
+    font-weight: 900;
 }
