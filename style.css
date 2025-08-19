@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    margin: 0;
     background-position: center;
     font-family: arial, 'Times New Roman', Times, serif;
 }
@@ -32,14 +33,16 @@ body {
 }
 .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 42px;
 }
 .card {
+    flex: 1 1 300px;
     background: #72891b;
     color: white;
     height: 400px;
-    width: 350px;
+    max-width: 350px;
     border-radius: 15px;
     text-align: center;
     margin: 20px;
